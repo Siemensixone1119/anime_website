@@ -1,3 +1,16 @@
-body{
-  background-color: antiquewhite;
-}
+@use "./style/scss/variable";
+@use "./style/scss/mixins";
+
+@use "./style/scss/base";
+@use "./style/scss/header";
+@use "./style/scss/hero";
+@use "./style/scss/product";
+@use "./style/scss/anime-details";
+@use "./style/scss/anime-watching";
+@use "./style/scss/breadcrumb";
+@use "./style/scss/blog";
+@use "./style/scss/blog-details";
+@use "./style/scss/login";
+@use "./style/scss/signup";
+@use "./style/scss/footer";
+@use "./style/scss/responsive";
